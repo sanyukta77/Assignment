@@ -1,0 +1,130 @@
+.cum-et-convallis,
+.make-the-best {
+  margin: 0;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 8;
+}
+.make-the-best {
+  width: 618px;
+  font-size: var(--font-size-45xl);
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.cum-et-convallis {
+  align-self: stretch;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--color-gray-500);
+}
+.frame-child7 {
+  height: 60px;
+  width: 180px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-black);
+  display: none;
+}
+.get-started,
+.vector-icon {
+  position: relative;
+  z-index: 1;
+}
+.get-started {
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-clash-display);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 102px;
+  white-space: nowrap;
+}
+.vector-icon {
+  width: 24px;
+  height: 7.4px;
+}
+.rectangle-parent3,
+.vector-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.rectangle-parent3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-4xl);
+  background-color: var(--color-black);
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  z-index: 8;
+}
+.watch-video {
+  position: relative;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 111px;
+  z-index: 8;
+}
+.watch-video-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.call-to-action {
+  width: 374px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.make-the-best-financial-decisi-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-430xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1050px) {
+  .make-the-best {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .make-the-best-financial-decisi-parent {
+    padding-bottom: var(--padding-273xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .make-the-best {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .call-to-action {
+    flex-wrap: wrap;
+  }
+}
